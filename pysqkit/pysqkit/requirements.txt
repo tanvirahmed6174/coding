@@ -1,0 +1,5 @@
+numpy
+scipy
+qutip
+matplotlib
+xarray

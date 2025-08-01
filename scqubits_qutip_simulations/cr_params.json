@@ -1,0 +1,16 @@
+{
+  "CR_set1": { "fluxonium": { "EJ": 4.19, "EC": 1.0617, "EL": 0.933 }, "transmon": { "EJ": 19.98, "EC": 0.1845 }, "Jc": 0.0222 },
+  "CR_set2": { "fluxonium": { "EJ": 4.5, "EC": 1, "EL": 0.8 }, "transmon": { "EJ": 8, "EC": 0.15 }, "Jc": 0.05 },
+  "UMA5": { "fluxonium": { "EJ": 4.1933, "EC": 1.0617, "EL": 0.9336 }, "transmon": { "EJ": 19.98, "EC": 0.1845 }, "Jc": 0.0222 },
+  "FUN5": { "fluxonium": { "EJ": 3.74, "EC": 0.92, "EL": 0.36 }, "transmon": { "EJ": 11.3, "EC": 0.19 }, "Jc": 0.025 },
+  "FUN5_Right": { "fluxonium": { "EJ": 3.74, "EC": 0.92, "EL": 0.36 }, "transmon": { "EJ": 11.3, "EC": 0.19 }, "Jc": 0.024 },
+  "UMA5_low": { "fluxonium": { "EJ": 4.5, "EC": 1, "EL": 0.8 }, "transmon": { "EJ": 4, "EC": 0.05 }, "Jc": 0.025 },
+  "UMA5_design": { "fluxonium": { "EJ": 4.5, "EC": 1.07, "EL": 0.8 }, "transmon": { "EJ": 20.0, "EC": 0.19 }, "Jc": 0.023 },
+  "CR_set3_high_Jc": { "fluxonium": { "EJ": 6, "EC": 1.0, "EL": 1.5 }, "transmon": { "EJ": 10.0, "EC": 0.15 }, "Jc": 0.05 },
+  "FTF_FUN10_Type_1": { "fluxonium": { "EJ": 5, "EC": 1.05, "EL": 0.8 }, "transmon": { "EJ": 22.0, "EC": 0.18 }, "Jc": 0.02 },
+  "FTF_FUN10_Type_3": { "fluxonium": { "EJ": 6, "EC": 1.05, "EL": 0.8 }, "transmon": { "EJ": 5, "EC": 0.043 }, "Jc": 0.02 },
+  "FT_NICK": { "fluxonium": { "EJ": 3.95, "EC": 1.4, "EL": 0.9 }, "transmon": { "EJ": 18, "EC": 0.25 }, "Jc": 0.022 },
+  "FT_FUN13": { "fluxonium": { "EJ": 4, "EC": 0.8, "EL": 0.3 }, "transmon": { "EJ": 18, "EC": 0.1 }, "Jc": 0.05 }
+  
+
+}
