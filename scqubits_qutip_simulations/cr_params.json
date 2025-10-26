@@ -1,16 +1,46 @@
 {
   "CR_set1": { "fluxonium": { "EJ": 4.19, "EC": 1.0617, "EL": 0.933 }, "transmon": { "EJ": 19.98, "EC": 0.1845 }, "Jc": 0.0222 },
   "CR_set2": { "fluxonium": { "EJ": 4.5, "EC": 1, "EL": 0.8 }, "transmon": { "EJ": 8, "EC": 0.15 }, "Jc": 0.05 },
-  "UMA5": { "fluxonium": { "EJ": 4.1933, "EC": 1.0617, "EL": 0.9336 }, "transmon": { "EJ": 19.98, "EC": 0.1845 }, "Jc": 0.0222 },
+
+  "UMA5": { "fluxonium": { "EJ": 4.1933, "EC": 1.0617, "EL": 0.9336 }, "transmon": { "EJ": 19.98, "EC": 0.1845 },
+   "Jc": 0.0222,  "crosstalk": {"Cg_F":0.08 ,"Cg_FT": 0.00735, "Cg_T": 0.042}},
+
   "FUN5": { "fluxonium": { "EJ": 3.74, "EC": 0.92, "EL": 0.36 }, "transmon": { "EJ": 11.3, "EC": 0.19 }, "Jc": 0.025 },
   "FUN5_Right": { "fluxonium": { "EJ": 3.74, "EC": 0.92, "EL": 0.36 }, "transmon": { "EJ": 11.3, "EC": 0.19 }, "Jc": 0.024 },
+  "FUN5_Left": { "fluxonium": { "EJ": 3.74, "EC": 0.914, "EL": 0.37 }, "transmon": { "EJ": 10.4, "EC": 0.193 }, "Jc": 0.022 },
+
+  "FUN5_Left2": { "fluxonium": { "EJ": 3.72, "EC": 0.914, "EL": 0.375 }, "transmon": { "EJ": 9.66, "EC": 0.21 }, 
+  "Jc": 0.024, "crosstalk": {"Cg_F":0.12 ,"Cg_FT": 0.011, "Cg_T": 0.162}} ,
+
+
   "UMA5_low": { "fluxonium": { "EJ": 4.5, "EC": 1, "EL": 0.8 }, "transmon": { "EJ": 4, "EC": 0.05 }, "Jc": 0.025 },
   "UMA5_design": { "fluxonium": { "EJ": 4.5, "EC": 1.07, "EL": 0.8 }, "transmon": { "EJ": 20.0, "EC": 0.19 }, "Jc": 0.023 },
   "CR_set3_high_Jc": { "fluxonium": { "EJ": 6, "EC": 1.0, "EL": 1.5 }, "transmon": { "EJ": 10.0, "EC": 0.15 }, "Jc": 0.05 },
-  "FTF_FUN10_Type_1": { "fluxonium": { "EJ": 5, "EC": 1.05, "EL": 0.8 }, "transmon": { "EJ": 22.0, "EC": 0.18 }, "Jc": 0.02 },
-  "FTF_FUN10_Type_3": { "fluxonium": { "EJ": 6, "EC": 1.05, "EL": 0.8 }, "transmon": { "EJ": 5, "EC": 0.043 }, "Jc": 0.02 },
-  "FT_NICK": { "fluxonium": { "EJ": 3.95, "EC": 1.4, "EL": 0.9 }, "transmon": { "EJ": 18, "EC": 0.25 }, "Jc": 0.022 },
-  "FT_FUN13": { "fluxonium": { "EJ": 4, "EC": 0.8, "EL": 0.3 }, "transmon": { "EJ": 18, "EC": 0.1 }, "Jc": 0.05 }
+  "FTF_FUN10_Type_1": { "fluxonium": { "EJ": 5, "EC": 1.05, "EL": 0.7 }, "transmon": { "EJ": 22.0, "EC": 0.18 }, "Jc": 0.02 },
+
+  "FTF_FUN10_Type_3": { "fluxonium": { "EJ": 6, "EC": 1.05, "EL": 0.8 }, "transmon": { "EJ": 5, "EC": 0.043 }, 
+  "Jc": 0.02, "crosstalk": {"Cg_F":0.076 ,"Cg_FT": 0.095, "Cg_T": 0.237}
+},
+
+  "FT_NICK": { "fluxonium": { "EJ": 3.95, "EC": 1.4, "EL": 0.9 }, "transmon": { "EJ": 18, "EC": 0.25 }, "Jc": 0.12 },
+  "FT_FUN14_good": { "fluxonium": { "EJ": 6, "EC": 1.2, "EL": 0.8 }, "transmon": { "EJ": 12, "EC": 0.18 }, "Jc": 0.075 },  
+  "FT_FUN14_good2": { "fluxonium": { "EJ": 6, "EC": 1.3, "EL": 0.8 }, "transmon": { "EJ": 14, "EC": 0.18 }, "Jc": 0.075 },
+  "FT_FUN14_good3_alpha_185": { "fluxonium": { "EJ": 6, "EC": 1.3, "EL": 0.8 }, "transmon": { "EJ": 14, "EC": 0.18 }, "Jc": 0.06 },
+  "FT_FUN14": { "fluxonium": { "EJ": 6, "EC": 1.3, "EL": 0.8 }, "transmon": { "EJ": 27, "EC": 0.18 }, "Jc": 0.04 },
+  "FT_FUN14_long": { "fluxonium": { "EJ": 5, "EC": 0.85, "EL": 1.15 }, "transmon": { "EJ": 16, "EC": 0.165 }, "Jc": 0.045 },
+  
+  "FT_FUN14_long2": { "fluxonium": { "EJ": 5, "EC": 0.88, "EL": 1.15 }, "transmon": { "EJ": 17, "EC": 0.167 }, 
+  "Jc": 0.045, "crosstalk": {"Cg_F":0.22 ,"Cg_FT": 0.011, "Cg_T": 0.061}} ,
+
+  "FT_FUN14_long3": { "fluxonium": { "EJ": 5, "EC": 0.93, "EL": 1.15 }, "transmon": { "EJ": 17, "EC": 0.18 }, 
+  "Jc": 0.037, "crosstalk": {"Cg_F":0.22 ,"Cg_FT": 0.0094, "Cg_T": 0.049}},  
+  
+  "FT_FUN14_long4": { "fluxonium": { "EJ": 4.5, "EC": 0.88, "EL": 1.15 }, "transmon": { "EJ": 17, "EC": 0.167 }, 
+  "Jc": 0.045, "crosstalk": {"Cg_F":0.22 ,"Cg_FT": 0.011, "Cg_T": 0.061}} ,
+
+  "FT_FUN14_long5": { "fluxonium": { "EJ": 5, "EC": 0.93, "EL": 1.15 }, "transmon": { "EJ": 17, "EC": 0.19 }, 
+  "Jc": 0.037, "crosstalk": {"Cg_F":0.22 ,"Cg_FT": 0.0094, "Cg_T": 0.049}}
+
   
 
 }
